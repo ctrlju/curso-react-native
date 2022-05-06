@@ -10,7 +10,7 @@ export default props => (
     }}>
         <Text style={{
             fontSize: 50,
-            color: props.corTexto || 'grey'
+            color: props.corTexto || 'gray'
         }}>
             {props.children}
         </Text>
